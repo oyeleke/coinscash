@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#0000ff"
+    tools:context="com.example.omoiyaemma.coinscashfor8ballpool.MainActivity">
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:layout_height="wrap_content"
+        android:text="Coins/Cash for 8 ball pool joke"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:layout_marginLeft="19dp"
+        android:textColor="#fff"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="19dp"
+        android:text="Please Put UserName"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginBottom="26dp"
+        android:hint="Put Your Username"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="60dp" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/borderbutton"
+        android:text="GET COINS/CASH JOKE"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/button"
+        />
+
+
+</LinearLayout>
